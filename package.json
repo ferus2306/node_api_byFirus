@@ -1,0 +1,22 @@
+{
+  "name": "node_express_api_byfirus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "Firus Hanov",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "uuid": "^2.0.3",
+    "uuidv4": "^6.2.6"
+  }
+}
