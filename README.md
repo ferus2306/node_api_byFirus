@@ -11,9 +11,14 @@ date: 12-15-2020
 3. DELETE
 4. PATCH
 
-Example code:
+Tools used:
 
-| GET    |   POST    |    DELETE | PATCH     |
+- uuid - for generating random id
+- nodemon - utility to monitor changes
+- express -
+
+Example code:
+| GET | POST | DELETE | PATCH |
 | ------ | :-------: | --------: | --------- |
 | /users | /users/id | /users/id | /users/id |
 

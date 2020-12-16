@@ -17,7 +17,6 @@ let users = [
 // }
 ]
 
-
 router.get('/', (req, res) => {
     console.log('Getting data');
     res.send(users);
@@ -59,8 +58,6 @@ router.patch('/:id', (req, res) => {
     }
     res.send(`User with the id ${id} has been updated`);
 })
-
-
 
 
 export default router;
